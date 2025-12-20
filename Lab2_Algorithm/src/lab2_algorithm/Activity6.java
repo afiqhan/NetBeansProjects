@@ -3,10 +3,9 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package lab2_algorithm;
-
 /**
  *
- * @author User
+ * @author AFIQ HANIF
  */
 public class Activity6 {
 
