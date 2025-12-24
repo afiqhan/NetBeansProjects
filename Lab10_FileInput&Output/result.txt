@@ -1,0 +1,16 @@
+=== Sorted Students (Descending by Marks) ===
+Name            Marks      Grade
+------------------------------------------
+Maryam          94.00      A    
+Badli           86.00      A    
+Faisal          85.00      A    
+Humayraa        85.00      A    
+Tarmizi         80.00      A    
+Abdurrahman     75.00      B    
+Zahraa          72.00      B    
+Fatimah         64.00      C    
+Abdullah        63.00      C    
+Luqman          60.00      C    
+------------------------------------------
+Total Marks : 764.00
+Average     : 76.40
