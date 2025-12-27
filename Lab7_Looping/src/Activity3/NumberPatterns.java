@@ -2,22 +2,19 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package lab7_looping;
-
+package Activity3;
 /**
  *
- * @author Afiq Hanif
+ * @author AFIQ HANIF
  */
 import java.util.Scanner;
-
-public class Activity3 {
-
+public class NumberPatterns {
     public static void main(String[] args) {
 
-        Scanner sc = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
-        System.out.print("Enter number of lines: ");
-        int n = sc.nextInt();
+        System.out.print("Enter number of lines: ");    
+        int n = input.nextInt();
 
         // Pattern I
         System.out.println("\nPattern I");
@@ -49,17 +46,12 @@ public class Activity3 {
         // Pattern IV
         System.out.println("\nPattern IV");
         for (int i = n; i >= 1; i--) {
-
-            // print spaces
-            for (int s = 0; s < n - i; s++) {
-                System.out.print("  ");
-            }
-
-            // print numbers
             for (int j = 1; j <= i; j++) {
                 System.out.print(j + " ");
             }
             System.out.println();
         }
+
+        input.close();
     }
 }
